@@ -6,6 +6,10 @@ import csv
 import time
 import subprocess
 
+# set appearance mode for the app
+customtkinter.set_appearance_mode("dark")
+customtkinter.set_default_color_theme("blue")
+
 class WakaAmaApp:
     def __init__(self, master):
         self.master = master
