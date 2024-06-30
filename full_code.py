@@ -241,7 +241,7 @@ class WakaAmaApp:
 
         # Add the submit button to trigger CSV processing
         submit_button = customtkinter.CTkButton(master=newwin, text="Submit", font=('Arial', 15, 'bold'), command=dlcsv)
-        submit_button.place(x=215, y=300)
+        submit_button.place(x=150, y=300)
 
     # Function to run the main application loop
     def run(self):

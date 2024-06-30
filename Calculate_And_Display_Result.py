@@ -44,7 +44,7 @@ class WakaAmaApp:
         self.Ykword.place(x=150, y=262)
 
         submit_button = customtkinter.CTkButton(master=newwin, text="Submit", font=('Arial', 15, 'bold'), command=self.dlcsv)
-        submit_button.place(x=215, y=300)
+        submit_button.place(x=150, y=300)
 
     def select_folder(self):
         fpath = filedialog.askdirectory()
