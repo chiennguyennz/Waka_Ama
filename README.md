@@ -1,1 +1,2 @@
 # Waka_Ama
+HOW TO USE MY PROGRAM
